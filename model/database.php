@@ -1,8 +1,8 @@
 <?php
 	//database connection details
-	$host = 'database-1.ccj6e1dsz8lm.us-east-1.rds.amazonaws.com'; // change this to endpoint from RDS URL 
+	$host = 'mysqldb.ccj6e1dsz8lm.us-east-1.rds.amazonaws.com'; // changed to endpoint URL
 	$user = 'admin'; // might be different...
-	$password = 'awsbaru2022!'; // might be different as well...
+	$password = 'awsbaru2022!'; // might be different as well... need to test
 	$database = 'gorgeous_cupcakes';
 
 	//connect to database with a try/catch statement
